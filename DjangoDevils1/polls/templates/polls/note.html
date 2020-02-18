@@ -1,0 +1,20 @@
+    <!--    {% if dsquest %}  neu dsquest ton tai roi moi duyet for-->
+<!--     item đang là 1 object nên phải in ra từng thuộc tính của nó -->
+
+    Nếu muốn lấy ra tất cả dữ liệu thì chỉ cần Question.objects.all()
+
+    Nếu muốn lấy 1 số thành phần thì sao thì có hỗ trợ hàm get_object_or_404
+
+mot cau hoi co rat nhieu cau tra loi nen khi dung thi phai dung vong lap for de duyet
+ <a href="{% url 'detail' item.id item.id %}"><p>{{item.question_test}}</p></a>
+    // nếu như truyền thêm id thì viết như vậy bình thường theo trong urls (	path('detail/<int:question_id>/<int:question_id2>', views.detailView, name="detail"),)
+
+
+        {% url 'detail' item.id %}  cú pháp in ra đường dẫn
+
+
+
+        url namespace va static trong django do nếu trong url có nhiều app có views tên  giống nhau  thì thay vì mình sẽ
+        app_name = 'polls' (là tên app)  truyền vào action="{% url 'polls:vote' qs.id %}"
+
+

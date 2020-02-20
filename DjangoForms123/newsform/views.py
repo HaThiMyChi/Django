@@ -129,8 +129,22 @@ class ViewUser(LoginRequiredMixin, View):
 def view_product(request):
 	return HttpResponse('Xem san pham')
 
-class AddPost(View):
+class AddPost(LoginRequiredMixin, View):
+	login_url = '/newsform/login/'
 	def get(self, request):
 		f = PostFormLogin()
 		context = {'fm': f}
 		return render(request, 'news/add_post.html', context)
+	
+	def post(self, request):
+		f = PostFormLogin(request.POST)
+		if not f.is_valid():
+			return HttpResponse('Ban nhap sai du lieu roi')
+		#cache reload tu database user
+		print(request.user.get_all_permissions())
+		
+		if request.user.has_perm('newsform.add_post'): # viet thuong ten model
+			f.save()
+		else:
+			return HttpResponse('may khong co quyen')
+		return HttpResponse('Oke')

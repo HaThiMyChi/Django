@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-    <form action="" method="post">
+    <form action="{% url 'news:add_post' %}" method="post">
         {% csrf_token %}
         {{ fm }}
         <input type="submit" value="ADD">

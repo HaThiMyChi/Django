@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f63c16e8-859a-406d-831a-6807efe9086e" name="Default Changelist" comment="" />
+    <list default="true" id="f63c16e8-859a-406d-831a-6807efe9086e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoForms123/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoForms123/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsform/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/newsform/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsform/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/newsform/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsform/templates/news/add_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/newsform/templates/news/add_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsform/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/newsform/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TomTatDjango.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../TomTatDjango.docx" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +26,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XnE9J69RV8Pft8coYzS2w0HmlR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/newsform" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -84,10 +99,22 @@
       <workItem from="1581673643471" duration="1297000" />
       <workItem from="1581676471477" duration="23093000" />
       <workItem from="1582009563272" duration="8999000" />
+      <workItem from="1582164805223" duration="11860000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

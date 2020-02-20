@@ -100,7 +100,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
+AUTH_USER_MODEL = 'newsform.MyUser'
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 

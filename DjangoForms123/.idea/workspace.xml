@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f63c16e8-859a-406d-831a-6807efe9086e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/admin/login_copy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoForms123/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoForms123/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TomTatDjango.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../TomTatDjango.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../~WRL0005.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~WRL2705.tmp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shopingsite" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -125,7 +124,7 @@
       <workItem from="1581676471477" duration="23093000" />
       <workItem from="1582009563272" duration="8999000" />
       <workItem from="1582164805223" duration="13819000" />
-      <workItem from="1582261268177" duration="6943000" />
+      <workItem from="1582261268177" duration="8364000" />
     </task>
     <servers />
   </component>

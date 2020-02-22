@@ -5,7 +5,7 @@ from django.db import models
 # Danh muc
 class Category(models.Model):
 	# cai id no tu sinh khong can phai khai bao
-	title = models.CharField(default='', max_length='')
+	title = models.CharField(default='', max_length=100)
 	slug = models.CharField(max_length=100, default='')
 	description = models.TextField(default='')
 	active = models.BooleanField(default=True)
@@ -17,7 +17,7 @@ class Product(models.Model):
 	# do category lien ket voi bang Category nen no la khoa ngoai nen khai bao de lien ket
 	category = models.ForeignKey(Category, on_delete=models.CASCADE)
 	price = models.IntegerField(default=0)
-	active = models.BooleanField(default= True)
+	active = models.BooleanField(default=True)
 
 class Variation(models.Model):
 	product = models.ForeignKey(Product, on_delete=models.CASCADE)

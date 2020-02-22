@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f63c16e8-859a-406d-831a-6807efe9086e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomTatDjango.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../TomTatDjango.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopingsite/cart/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../shopingsite/cart/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../~WRL0005.tmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../~WRL2705.tmp" beforeDir="false" />
     </list>

@@ -16,6 +16,7 @@ class Product(models.Model):
 	description = models.TextField(default='')
 	# do category lien ket voi bang Category nen no la khoa ngoai nen khai bao de lien ket
 	category = models.ForeignKey(Category, on_delete=models.CASCADE)
+	product_img = models.CharField(max_length=255, default='')
 	price = models.IntegerField(default=0)
 	active = models.BooleanField(default=True)
 
